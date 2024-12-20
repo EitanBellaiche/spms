@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/EitanBellaiche/spms.git/static/css/main.4d32f4ab.css",
-    "main.js": "/EitanBellaiche/spms.git/static/js/main.a6fd3b98.js",
-    "static/js/488.3bd8912d.chunk.js": "/EitanBellaiche/spms.git/static/js/488.3bd8912d.chunk.js",
-    "index.html": "/EitanBellaiche/spms.git/index.html",
-    "main.4d32f4ab.css.map": "/EitanBellaiche/spms.git/static/css/main.4d32f4ab.css.map",
-    "main.a6fd3b98.js.map": "/EitanBellaiche/spms.git/static/js/main.a6fd3b98.js.map",
-    "488.3bd8912d.chunk.js.map": "/EitanBellaiche/spms.git/static/js/488.3bd8912d.chunk.js.map"
+    "main.css": "/spms/static/css/main.4d32f4ab.css",
+    "main.js": "/spms/static/js/main.cd692c59.js",
+    "static/js/488.3bd8912d.chunk.js": "/spms/static/js/488.3bd8912d.chunk.js",
+    "index.html": "/spms/index.html",
+    "main.4d32f4ab.css.map": "/spms/static/css/main.4d32f4ab.css.map",
+    "main.cd692c59.js.map": "/spms/static/js/main.cd692c59.js.map",
+    "488.3bd8912d.chunk.js.map": "/spms/static/js/488.3bd8912d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d32f4ab.css",
-    "static/js/main.a6fd3b98.js"
+    "static/js/main.cd692c59.js"
   ]
 }
