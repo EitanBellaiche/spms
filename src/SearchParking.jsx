@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './SearchParking.css';
 
 const SearchParking = () => {
@@ -28,7 +29,7 @@ Car Size: ${searchData.carSize}`);
   return (
     <div className="search-parking-container">
       {/* Header */}
-      <header className="search-parking-header">
+      <header className="homepage-header">
         <div
           className="hamburger"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -37,13 +38,15 @@ Car Size: ${searchData.carSize}`);
           <div></div>
           <div></div>
         </div>
-        <div className="logo">SPMS</div>
+        {/* Link to HomePage */}
+        <Link to="/" className="logo">
+          SPMS
+        </Link>
         <nav className={`navbar ${isMenuOpen ? 'active' : ''}`}>
           <ul>
-            <li><a href="#my-parking">My Parking</a></li>
-            <li><a href="#reservations">Reservations</a></li>
-            <li><a href="#reports">Reports</a></li>
-            <li><a href="#contact">Contact</a></li>
+            {/* Link to Contact section in Footer */}
+            <li><a href="#contact-footer">Contact</a></li>
+            <li><Link to="/search-parking">Reservations</Link></li>
           </ul>
         </nav>
       </header>
@@ -105,7 +108,10 @@ Car Size: ${searchData.carSize}`);
       </main>
 
       {/* Footer */}
-      <footer className="search-parking-footer">
+      <footer id="contact-footer" className="search-parking-footer">
+        <p>Contact Us:</p>
+        <p>Email: support@spms.com</p>
+        <p>Phone: +1-800-123-4567</p>
         <p>&copy; 2024 Smart Parking Management System. All rights reserved.</p>
       </footer>
     </div>

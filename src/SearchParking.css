@@ -18,9 +18,12 @@ body {
 }
 
 .logo {
-  font-size: 2rem;
-  font-weight: bold;
+  text-decoration: none; 
+  color: inherit; 
+  font-size: 2rem; 
+  font-weight: bold; 
 }
+
 
 .navbar ul {
   list-style: none;
